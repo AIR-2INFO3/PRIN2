@@ -1,35 +1,52 @@
-@import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+  nav{
+    background-color: white;
   }
+.nav-link{
+color:black;
+font-size: 23px;
+font-weight: bold;
+text-decoration: none;
+justify-self: center;
+}
+.nav-link:hover{
+    color: rgb(107, 3, 177);
+}
+.nav-link:focus, .nav-link:hover {
+color: rgb(107, 3, 177);
+}
+.dropdown-menu{
+text-align: center;
+border-radius: 8px;
+}
+.dropdown-item{
+border-radius: 5px;
+font-weight: bold;
+}
+.dropdown-item:hover{
+background-color:rgba(128, 3, 177, 0.836);
+color: aliceblue;
+}
+form .search-item {
+padding-top: 7px;
+margin-left: 5px;
+font-size: 25px;
+position: absolute;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+form .form-control {
+text-indent: 20px;
+border-radius: 20px;
+border: 1px solid;
 }
+
+form .form-control:focus {
+border: 1px solid var(--cor-auxiliar);
+}
+#navbarTogglerDemo01{
+margin: 0 30px;
+}
+.nav-item{
+justify-content: center;
+}   
+
