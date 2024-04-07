@@ -1,35 +1,28 @@
-# prin2
 
-This template should help get you started developing with Vue 3 in Vite.
+<h1 align="center">Organization AIR - from 2INFO3</h1> 
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+###
 
-## Customize configuration
+<h2 align="left">Members</h2>
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+###
 
-## Project Setup
+<ul>
+<li align="left"> Ana Laura Manfron Dias</li>
+<li align="left">Isabelli Luísa Rosa</li>
+<li align="left">Rafaela Barbieri da Cruz</li>
+</ul>
 
-```sh
-npm install
-```
+###
 
-### Compile and Hot-Reload for Development
+<h2 align="left">Projects</h2>
 
-```sh
-npm run dev
-```
+###
 
-### Compile and Minify for Production
+<ul>
+<li align="left"> Projeto rosa</li>
+<li align="left">Projeto azul</li>
+<li align="left">Projeto roxo</li>
+</ul>
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
